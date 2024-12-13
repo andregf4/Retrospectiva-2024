@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97DB83DB2CA47CCF0092E8CF /* Jornada2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB83DA2CA47CCF0092E8CF /* Jornada2024App.swift */; };
+		97DB83DD2CA47CCF0092E8CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB83DC2CA47CCF0092E8CF /* ContentView.swift */; };
+		97DB83DF2CA47CD20092E8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DB83DE2CA47CD20092E8CF /* Assets.xcassets */; };
+		97DB83E22CA47CD20092E8CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DB83E12CA47CD20092E8CF /* Preview Assets.xcassets */; };
+		97DB83EF2CA5CFBF0092E8CF /* ChakraPetch-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97DB83EE2CA5CFBF0092E8CF /* ChakraPetch-Regular.ttf */; };
+		97DB83F32CA5D3040092E8CF /* FuncaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB83F22CA5D3040092E8CF /* FuncaoView.swift */; };
+		97DB83F52CA5D30F0092E8CF /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB83F42CA5D30F0092E8CF /* PortfolioView.swift */; };
+		97DB83F72CA5D31A0092E8CF /* GaleriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB83F62CA5D31A0092E8CF /* GaleriaView.swift */; };
+		97DB83F92CA5D3290092E8CF /* ViagensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB83F82CA5D3290092E8CF /* ViagensView.swift */; };
+		97DB83FB2CA617280092E8CF /* ExtensionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DB83FA2CA617280092E8CF /* ExtensionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97DB83D72CA47CCF0092E8CF /* Jornada2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jornada2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DB83DA2CA47CCF0092E8CF /* Jornada2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jornada2024App.swift; sourceTree = "<group>"; };
+		97DB83DC2CA47CCF0092E8CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97DB83DE2CA47CD20092E8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97DB83E12CA47CD20092E8CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97DB83EB2CA5CD640092E8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		97DB83EE2CA5CFBF0092E8CF /* ChakraPetch-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChakraPetch-Regular.ttf"; sourceTree = "<group>"; };
+		97DB83F22CA5D3040092E8CF /* FuncaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncaoView.swift; sourceTree = "<group>"; };
+		97DB83F42CA5D30F0092E8CF /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		97DB83F62CA5D31A0092E8CF /* GaleriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleriaView.swift; sourceTree = "<group>"; };
+		97DB83F82CA5D3290092E8CF /* ViagensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagensView.swift; sourceTree = "<group>"; };
+		97DB83FA2CA617280092E8CF /* ExtensionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97DB83D42CA47CCF0092E8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97DB83CE2CA47CCF0092E8CF = {
+			isa = PBXGroup;
+			children = (
+				97DB83D92CA47CCF0092E8CF /* Jornada2024 */,
+				97DB83D82CA47CCF0092E8CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97DB83D82CA47CCF0092E8CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97DB83D72CA47CCF0092E8CF /* Jornada2024.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97DB83D92CA47CCF0092E8CF /* Jornada2024 */ = {
+			isa = PBXGroup;
+			children = (
+				97DB83EB2CA5CD640092E8CF /* Info.plist */,
+				97DB83DA2CA47CCF0092E8CF /* Jornada2024App.swift */,
+				97DB83DC2CA47CCF0092E8CF /* ContentView.swift */,
+				97DB83F22CA5D3040092E8CF /* FuncaoView.swift */,
+				97DB83F82CA5D3290092E8CF /* ViagensView.swift */,
+				97DB83F62CA5D31A0092E8CF /* GaleriaView.swift */,
+				97DB83F42CA5D30F0092E8CF /* PortfolioView.swift */,
+				97DB83FA2CA617280092E8CF /* ExtensionsView.swift */,
+				97DB83E82CA5CBBA0092E8CF /* Files */,
+				97DB83DE2CA47CD20092E8CF /* Assets.xcassets */,
+				97DB83E02CA47CD20092E8CF /* Preview Content */,
+			);
+			path = Jornada2024;
+			sourceTree = "<group>";
+		};
+		97DB83E02CA47CD20092E8CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97DB83E12CA47CD20092E8CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97DB83E82CA5CBBA0092E8CF /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				97DB83EE2CA5CFBF0092E8CF /* ChakraPetch-Regular.ttf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97DB83D62CA47CCF0092E8CF /* Jornada2024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97DB83E52CA47CD20092E8CF /* Build configuration list for PBXNativeTarget "Jornada2024" */;
+			buildPhases = (
+				97DB83D32CA47CCF0092E8CF /* Sources */,
+				97DB83D42CA47CCF0092E8CF /* Frameworks */,
+				97DB83D52CA47CCF0092E8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jornada2024;
+			productName = Jornada2024;
+			productReference = 97DB83D72CA47CCF0092E8CF /* Jornada2024.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97DB83CF2CA47CCF0092E8CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					97DB83D62CA47CCF0092E8CF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 97DB83D22CA47CCF0092E8CF /* Build configuration list for PBXProject "Jornada2024" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97DB83CE2CA47CCF0092E8CF;
+			productRefGroup = 97DB83D82CA47CCF0092E8CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97DB83D62CA47CCF0092E8CF /* Jornada2024 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97DB83D52CA47CCF0092E8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DB83E22CA47CD20092E8CF /* Preview Assets.xcassets in Resources */,
+				97DB83DF2CA47CD20092E8CF /* Assets.xcassets in Resources */,
+				97DB83EF2CA5CFBF0092E8CF /* ChakraPetch-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97DB83D32CA47CCF0092E8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DB83F72CA5D31A0092E8CF /* GaleriaView.swift in Sources */,
+				97DB83F52CA5D30F0092E8CF /* PortfolioView.swift in Sources */,
+				97DB83DD2CA47CCF0092E8CF /* ContentView.swift in Sources */,
+				97DB83F92CA5D3290092E8CF /* ViagensView.swift in Sources */,
+				97DB83F32CA5D3040092E8CF /* FuncaoView.swift in Sources */,
+				97DB83DB2CA47CCF0092E8CF /* Jornada2024App.swift in Sources */,
+				97DB83FB2CA617280092E8CF /* ExtensionsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97DB83E32CA47CD20092E8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97DB83E42CA47CD20092E8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97DB83E62CA47CD20092E8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jornada2024/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jornada2024/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eldorado.org.Retrospectiva2024;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97DB83E72CA47CD20092E8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jornada2024/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jornada2024/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eldorado.org.Retrospectiva2024;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97DB83D22CA47CCF0092E8CF /* Build configuration list for PBXProject "Jornada2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97DB83E32CA47CD20092E8CF /* Debug */,
+				97DB83E42CA47CD20092E8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97DB83E52CA47CD20092E8CF /* Build configuration list for PBXNativeTarget "Jornada2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97DB83E62CA47CD20092E8CF /* Debug */,
+				97DB83E72CA47CD20092E8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97DB83CF2CA47CCF0092E8CF /* Project object */;
+}
